@@ -25,12 +25,12 @@ in your projects:
 
 ```
 FetchContent_Declare(
-  parasolid_frustrum
+  ps_frustrum
   GIT_REPOSITORY   https://github.com/deGravity/parasolid_frustrum.git
   GIT_TAG   v1.0
 )
 
-FetchContent_MakeAvailable(parasolid_frustrum)
+FetchContent_MakeAvailable(ps_frustrum)
 
 ...
 
