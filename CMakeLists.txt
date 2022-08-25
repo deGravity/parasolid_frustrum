@@ -16,3 +16,4 @@ ELSE()
 ENDIF()
 
 target_include_directories(parasolid_frustrum PUBLIC $ENV{PARASOLID_BASE})
+target_include_directories(parasolid_frustrum INTERFACE ${CMAKE_CURRENT_LIST_DIR})
