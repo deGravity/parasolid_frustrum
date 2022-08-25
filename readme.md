@@ -30,7 +30,7 @@ FetchContent_Declare(
   GIT_TAG   v1.0 
 )
 
-FetchContent_MakeAvailable(parasolid_frustrum myCompanyIcons)
+FetchContent_MakeAvailable(parasolid_frustrum)
 
 ...
 
