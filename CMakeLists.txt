@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.14)
 project(parasolid_frustrum)
 
+set (CMAKE_CXX_STANDARD 11)
+
 add_library(parasolid_frustrum STATIC "frustrum.cpp" "parasolid.cpp")
 
 IF (WIN32)

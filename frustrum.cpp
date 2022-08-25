@@ -132,7 +132,7 @@ private:
 	size_t loc;
 };
 
-std::map<int, std::shared_ptr<PSFile>> open_files;
+std::map<int, std::shared_ptr<PSFile> > open_files;
 int next_file_id = 0;
 
 extern void FSTART(int* ifail)
