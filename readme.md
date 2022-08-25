@@ -24,6 +24,7 @@ I recommend using CMake's FetchContent to use the frustrum
 in your projects:
 
 ```
+include(FetchContent)
 FetchContent_Declare(
   ps_frustrum
   GIT_REPOSITORY   https://github.com/deGravity/parasolid_frustrum.git
